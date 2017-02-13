@@ -1,0 +1,61 @@
+/* aligner texte au centre horizontalement text-align:center ;
+aligner verticalement : mettre line-height au meme nombre de pix que height
+display:block; permet de mettre les parties les unes en dessous les autres
+margin-left/margin-right:auto; rend lka page responsive, garde la mise en page malgré la fenetre qui change de taille
+
+*/
+
+p{
+    text-align: center;
+    border:double black 3px;
+    height: 50px;
+    width: 400px;
+    line-height: 50px;
+    margin-top:40px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div{
+    border :none;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+body{
+   background-color: aqua;
+}
+
+#pAh{
+    margin-top: 100px;
+    background-color: red;
+    height: 70px;
+    width: 520px;
+    font-size: 25px;
+    line-height: 70px;
+}
+
+#p1{
+    background-color: blueviolet;
+    
+}
+
+#p2{
+    background-color: green;
+    
+}
+
+#p3{
+    background-color: white;
+    
+}
+
+span{
+    font-size: 12px;
+    
+}
+
+
