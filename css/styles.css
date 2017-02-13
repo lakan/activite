@@ -58,4 +58,18 @@ span{
     
 }
 
+#coeur{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    
+    height: 700;
+    width: 700;
+}
+
 
