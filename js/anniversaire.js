@@ -26,6 +26,7 @@ $("#p3").on("click",function(){
     $("#p3>span").remove();
     $("div  > img").show();
     
+    $("#coeur").show();
     $("#pAh~p").text("JE T'AIME !");
     $("body").css("backgroundColor","pink");    
     $("div#pAudio").html('<audio src="son/Nelson.mp3" autoplay loop></audio>')
